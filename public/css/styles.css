@@ -1,0 +1,264 @@
+body{
+    font-family: 'Montserrat', serif;
+
+}
+/* Navbar styles */
+h1{
+    color: #455d80;
+    font-family: 'sacramento', 'cursive';
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 50%;
+}
+
+h2{
+    color: #455d80;
+    font-family: 'montserrat', 'san-serif';
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    color: #455d80;
+    font-family: 'montserrat', 'san-serif';
+}
+
+a{
+    color: #455d80;
+    text-decoration: none;
+}
+
+.weather-btn{
+    margin-left: 5%;
+}
+
+.nav-pic{
+    width: 4%;
+}
+.ppic{
+    width: 50px;
+}
+
+.nav a:hover{
+    color: #94a7c4;
+}
+
+.top_container{
+    background-color: #EAF6F6;
+    position: relative;
+}
+
+
+.t_class{
+    position: absolute;
+    right: 10%;
+    width: 10%;
+} 
+
+.mountain-pic{
+    margin: 0 auto; 
+    display: block;
+    width: 50%;
+}
+
+/* features section */
+
+#features{
+    background-color: #f3fcfc;
+    font-family: 'Montserrat';
+    margin: auto;
+    position: relative;
+}
+
+.features-con{
+    margin: auto;
+    padding: 8rem 12rem;
+}
+
+.features-1{
+    text-align: center;
+    margin: auto;
+} 
+
+.features-1 i{
+    color: #7d98f9;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+ }
+
+ .features-1 i:hover{
+     color: #f3f7cb;
+ }
+
+.features-1 h3{
+   font-family: 'Montserrat';
+   font-size: 1.8rem;
+   font-weight: bold;
+   padding: 0 80px;
+}
+
+.features-1 p{
+    color: #8f8f8f;
+    font-weight: lighter;
+    padding: 0 45px;
+ }
+
+/* AboutApp styles */
+
+#cta{
+    background-color: #455d80;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3rem 0;
+    /* padding: 3rem 7rem; */
+    text-align: center;
+}
+
+#cta h5{
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1rem 12rem;
+    text-align: left;
+}
+
+#cta button{
+    margin: 2rem 1rem 3rem;
+}
+
+/* Reviews */
+#testimonials{
+    background-color: #292828;
+    color: #ffffff;
+}
+
+#testimonials h2{
+    font-family: 'Monserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+   padding: 5% 7% 7%;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    margin: 30px;
+    width: 4%;
+}
+
+/* Contact styles */
+.contact_me{
+    color: #413e3e;
+    font-family: 'Montserrat', serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact_me button{
+    background-color: #455d80;
+    border: 2px solid #455d80;
+    border-radius: 5px;
+    margin: 20px auto 50px;
+    padding: 5px;
+}
+
+.contact_me button:hover{
+    background-color: #455d80;
+    border: #455d80;
+}
+
+.contact_me a{
+    background-color: #455d80;
+    color: white;
+    font-family: 'montserrat', 'san-serif';
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact_me a:hover{
+    background-color: #455d80;
+}
+
+
+
+/* Footer styles */
+
+#bottom_container{
+    background-color: #455d80;
+    margin: 0;
+    text-align: center;
+}
+
+#bottom_container a{
+    color: #9db2d1;
+    display: inline-block;
+    font-family: 'montserrat', 'san-serif';
+    font-size: 18px;
+    margin: 30px auto 0;
+    width: 7rem;
+}
+
+#bottom_container a:hover{
+    color: #EAF6F6;
+}
+
+#bottom_container p{
+    color: #EAF6F6;
+    font-family: 'montserrat', 'san-serif';
+    font-size: 14px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* WeatherApp style */
+
+#weather_body{
+    background-color: rgb(174, 222, 234);
+    min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.app-con h1{
+    margin-left: 25%;
+    text-align: center;
+    size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+}
+ 
+.app-con form{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+input{
+    border-radius: 1rem;
+    width:20rem;
+}
+
+.app-con {
+    flex-grow: 1; /* Allow the content to grow and push the footer down */
+  }
+  
+  footer {
+    background-color: #333; /* Add a background color to the footer */
+    color: white; /* Set the text color */
+    padding: 20px; /* Add some padding for spacing */
+  }
+
+
+/* .app-con label{
+    size: 5rem;
+} */
+
+.app-con p{
+    size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+}
+
+.the-res{
+    background-color: #455d80;
+}
