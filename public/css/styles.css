@@ -222,7 +222,8 @@ a{
 .app-con h1{
     margin-left: 25%;
     text-align: center;
-    size: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 5%;
 }
@@ -235,12 +236,13 @@ a{
 
 input{
     border-radius: 1rem;
-    width:20rem;
+    width:15rem;
 }
 
 .app-con {
     flex-grow: 1; /* Allow the content to grow and push the footer down */
-  }
+    margin-bottom: 15%;
+}
   
   footer {
     background-color: #333; /* Add a background color to the footer */
@@ -248,17 +250,20 @@ input{
     padding: 20px; /* Add some padding for spacing */
   }
 
+  .the-res{
+    background-color: #455d80;
+}
+
 
 /* .app-con label{
     size: 5rem;
 } */
+/* About me styles */
 
 .app-con p{
     size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 5%;
+    padding: 0 25px;
 }
 
-.the-res{
-    background-color: #455d80;
-}
